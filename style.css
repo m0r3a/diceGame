@@ -1,0 +1,142 @@
+body {
+    background-color: #393E46;
+    color: #4ECCA3;
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    margin: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 5px 0px black;
+}
+
+.buttons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    color: #393E46;
+    font-size: 20px;
+}
+
+.players {
+    display:flex;
+    justify-content: center;
+    gap: 13rem;
+    font-size: 28px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 9vh;
+}
+
+p, button {
+    font-family: 'Indie Flower', cursive;
+}
+
+@media (max-width: 1250px) {
+    h1 {
+        font-size: 2rem;
+        text-shadow: 3px 0px black;
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .players {
+        gap: 10rem;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 470px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 170px;
+        height: 70px;
+        font-size: 20px;
+        margin: 8px;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    img {
+        height: 130px;
+        width: 130px;
+    }
+
+    .players {
+        gap: 6rem;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 140px;
+        height: 35px;
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        height: 85px;
+        width: 85px;
+    }
+
+    .players {
+        gap: 4rem;
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
